@@ -28,6 +28,7 @@ const Services = () => {
                 makes these events long-lasting. YES, we proudly deliver super
                 delicious food and fabulous service.
               </p>
+                <small style={{color:"tomato"}}>Total Cost: ৳665 (per person) <br /><br /></small>
               <button onClick={handleChoosingMenu} className="btn btn-outline-danger">Read More</button>
             </div>
           </div>
@@ -46,7 +47,8 @@ const Services = () => {
                 in making your next corporate event – small or large – a
                 delicious success.
               </p>
-              <button className="btn btn-outline-danger">Read More</button>
+              <small style={{color:"tomato"}}>Total Cost: ৳650 (per person) <br /><br /></small>
+              <button onClick={handleChoosingMenu} className="btn btn-outline-danger">Read More</button>
             </div>
           </div>
         </div>
@@ -65,7 +67,8 @@ const Services = () => {
                 food with innovative menus will meet and exceed your
                 expectation.
               </p>
-              <button className="btn btn-outline-danger">Read More</button>
+              <small style={{color:"tomato"}}>Total Cost: ৳670 (per person) <br /><br /></small>
+              <button onClick={handleChoosingMenu} className="btn btn-outline-danger">Read More</button>
             </div>
           </div>
         </div>
