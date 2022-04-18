@@ -5,6 +5,8 @@ import Home from "./Pages/Home/Home";
 import Header from "./Pages/Shared/Header/Header";
 import About from './Pages/About/About';
 import Services from './Pages/Services/Services';
+import Login from './Pages/Login/Login';
+import Register from "./Register/Register";
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,8 @@ function App() {
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/services" element={<Services></Services>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/register" element={<Register></Register>}></Route>
       </Routes>
     </div>
   );
