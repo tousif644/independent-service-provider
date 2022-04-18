@@ -1,16 +1,25 @@
 import React from "react";
-
+import privateCatering from "../../Images/Catering/private-catering.jpg";
+import weddingCatering from "../../Images/Catering/wedding-catering-services-1.jpg";
+import corporateCatering from "../../Images/Catering/corporate-catering.jpg";
+import { useNavigate } from 'react-router-dom';
 const Services = () => {
+
+    const navigate = useNavigate();
+    // navigate to Menu Choosing
+    const handleChoosingMenu =() => {
+        navigate('/menus')
+    }
   return (
     <div>
       <div class="row  mx-4 row-cols-1 row-cols-md-3 gy-3">
         <div class="col">
           <div class="card ">
             <img
-              src=""
-              class="card-img-top my-3 me-auto mx-auto"
+              src={privateCatering}
+              class="card-img-top me-auto mx-auto"
               alt="..."
-              style={{ width: "40%" }}
+              style={{ width: "" }}
             />
             <div class="card-body">
               <h5 class="card-title">Private Catering</h5>
@@ -19,17 +28,16 @@ const Services = () => {
                 makes these events long-lasting. YES, we proudly deliver super
                 delicious food and fabulous service.
               </p>
-              <button className="btn btn-outline-danger">Read More</button>
+              <button onClick={handleChoosingMenu} className="btn btn-outline-danger">Read More</button>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card ">
             <img
-              src=""
-              class="card-img-top me-auto mx-auto my-3"
+              src={weddingCatering}
+              class="card-img-top me-auto mx-auto"
               alt="..."
-              style={{ width: "60%" }}
             />
             <div class="card-body">
               <h5 class="card-title">Corporate Catering</h5>
@@ -45,10 +53,9 @@ const Services = () => {
         <div class="col">
           <div class="card ">
             <img
-              src=""
-              class="card-img-top mx-auto my-3"
+              src={corporateCatering}
+              class="card-img-top mx-auto"
               alt="..."
-              style={{ width: "60%" }}
             />
             <div class="card-body">
               <h5 class="card-title">Wedding Catering</h5>
