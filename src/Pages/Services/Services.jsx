@@ -13,12 +13,11 @@ const Services = () => {
               style={{ width: "40%" }}
             />
             <div class="card-body">
-              <h5 class="card-title">Bread & Bun</h5>
+              <h5 class="card-title">Private Catering</h5>
               <p class="card-text">
-                Bread Buns are typically small, round breads, which can be
-                flavoured with an array of ingredients. They have a dome shape
-                and a flat bottom, and a light brown crust is visible on the
-                dome.
+                Life is full of occasions and celebrations. Scrumptious food
+                makes these events long-lasting. YES, we proudly deliver super
+                delicious food and fabulous service.
               </p>
               <button className="btn btn-outline-danger">Read More</button>
             </div>
@@ -33,12 +32,11 @@ const Services = () => {
               style={{ width: "60%" }}
             />
             <div class="card-body">
-              <h5 class="card-title">Muffin</h5>
+              <h5 class="card-title">Corporate Catering</h5>
               <p class="card-text">
-                Muffins are single-serving quick breads, which rise with the
-                help of baking soda or baking powder and eggs instead of yeast.
-                They tend to be sweet and somewhat moist, but heavier than a
-                cake or cupcake.
+                From made-to-order foods to flawless service, we are the expert
+                in making your next corporate event – small or large – a
+                delicious success.
               </p>
               <button className="btn btn-outline-danger">Read More</button>
             </div>
@@ -53,12 +51,12 @@ const Services = () => {
               style={{ width: "60%" }}
             />
             <div class="card-body">
-              <h5 class="card-title">Muffin</h5>
+              <h5 class="card-title">Wedding Catering</h5>
               <p class="card-text">
-                Muffins are single-serving quick breads, which rise with the
-                help of baking soda or baking powder and eggs instead of yeast.
-                They tend to be sweet and somewhat moist, but heavier than a
-                cake or cupcake.
+                In such auspicious moments, you want to treat your loved ones
+                with truly delicious food that they will remember for long. Our
+                food with innovative menus will meet and exceed your
+                expectation.
               </p>
               <button className="btn btn-outline-danger">Read More</button>
             </div>
