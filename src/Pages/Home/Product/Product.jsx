@@ -1,6 +1,7 @@
 import React from "react";
 import rated_1 from "../../../Images/rated-recipes/1.png";
 import rated_2 from "../../../Images/rated-recipes/2.png";
+import Services from "../../Services/Services";
 const Product = () => {
   return (
     <div>
