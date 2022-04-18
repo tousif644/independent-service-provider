@@ -4,6 +4,7 @@ import { Form } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import auth from "./../../../firebase.init";
+import SocialLogin from './../SocialLogin/SocialLogin';
 
 const Login = () => {
   const [signInWithEmailAndPassword, user, loading, error] =
@@ -79,6 +80,8 @@ const Login = () => {
         </p>
       </Form>
       <p className="text-danger">{errorElement}</p>
+
+      <SocialLogin></SocialLogin>
     </div>
   );
 };
