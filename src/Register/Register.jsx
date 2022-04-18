@@ -60,7 +60,7 @@ const Register = () => {
           Please Login
         </Link>
       </p>
-      <h3 className="text-danger">{errorElement}</h3>
+      <h3 className="text-danger check-text">{errorElement}</h3>
     </div>
   );
 };
