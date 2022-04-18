@@ -1,6 +1,14 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 
 const Menus = () => {
+//useNavigate
+const navigate = useNavigate();
+
+// navigate to checkout
+const handleGoingCheckout = () => {
+  navigate('/checkout');
+}
   return (
     <div>
         <h1 className="text-center my-4">Our Exclusive Menus 🍴</h1>
@@ -19,7 +27,7 @@ const Menus = () => {
                 <br />
                 <small style={{color:"tomato"}}>Total Cost: ৳665 (per person) </small>
               </p>
-              <button className="btn btn-outline-dark">Order Now</button>
+              <button onClick={handleGoingCheckout} className="btn btn-outline-dark">Order Now</button>
             </div>
           </div>
         </div>
@@ -37,7 +45,7 @@ const Menus = () => {
                 <br />
                 <small style={{color:"tomato"}}>Total Cost: ৳650 (per person) </small>
               </p>
-              <button className="btn btn-outline-dark">Order Now</button>
+              <button onClick={handleGoingCheckout} className="btn btn-outline-dark">Order Now</button>
             </div>
           </div>
         </div>
@@ -55,7 +63,7 @@ const Menus = () => {
                 <br />
                 <small style={{color:"tomato"}}>Total Cost: ৳670 (per person) </small>
               </p>
-              <button className="btn btn-outline-dark">Order Now</button>
+              <button onClick={handleGoingCheckout} className="btn btn-outline-dark">Order Now</button>
             </div>
           </div>
         </div>

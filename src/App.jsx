@@ -11,6 +11,7 @@ import Footer from './Pages/Shared/Footer/Footer';
 import Menus from "./Pages/Menus/Menus";
 import NotFound from "./Pages/NotFound/NotFound";
 import Blogs from "./Pages/Blogs/Blogs";
+import Checkout from "./Pages/Services/Checkout/Checkout";
 function App() {
   return (
     <div className="App">
@@ -23,8 +24,10 @@ function App() {
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="/menus" element={<Menus></Menus>}></Route>
-        <Route path="*" element={<NotFound></NotFound>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="/checkout" element={<Checkout></Checkout>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
+        
       </Routes>
       <Footer></Footer>
     </div>
