@@ -3,6 +3,7 @@ import "./Register.css";
 import { Link, useNavigate } from "react-router-dom";
 import auth from "./../../firebase.init";
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
+import SocialLogin from './../Pages/SocialLogin/SocialLogin';
 
 const Register = () => {
   let errorElement;
@@ -61,6 +62,8 @@ const Register = () => {
         </Link>
       </p>
       <h3 className="text-danger check-text">{errorElement}</h3>
+
+      <SocialLogin></SocialLogin>
     </div>
   );
 };
